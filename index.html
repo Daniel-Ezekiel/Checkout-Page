@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Stop 'N Shop - Checkout</title>
+
+		<!-- external CSS link -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1>Checkout</h1>
+
+		<main>
+
+			<section class="cart-box">
+				<div class="product">
+					<img src="images/photo1.png" alt="Backbag">
+	
+					<div class="product-details">
+	
+						<h3>Vintage Backbag</h3>
+						<span class="price product-price1">$54.99 <span class="slashed-price">$94.99</span></span>
+	
+					</div>
+	
+					<div class="counter-box">
+	
+						<button id="subtract1">-</button>
+						<span class="count1">0</span>
+						<button id="add1">+</button>
+	
+					</div>
+				</div>
+	
+				<div class="product">
+					<img src="images/photo2.png" alt="Levi-Shoes">
+	
+					<div class="product-details">
+	
+						<h3>Levi Shoes</h3>
+						<span class="price product-price2">$74.99 <span class="slashed-price">$124.99</span></span>
+						
+					</div>
+	
+					<div class="counter-box">
+	
+						<button id="subtract2">-</button>
+						<span class="count2">0</span>
+						<button id="add2">+</button>
+	
+					</div>
+				</div>
+	
+				<div class="cost-info">
+					<div class="shipping">
+						<h4 class="title">Shipping</h4>
+						<h4 class="shipping-cost cost-value">$<span>19</span></h4>
+					</div>
+	
+					<div class="total">
+						<h4 class="title">Total</h4>
+						<h4 class="total-cost cost-value">$<span>0</span></h4>
+					</div>
+				</div>
+			</section>
+	
+			<form action>
+	
+				<fieldset class="contact-info-box">
+					<legend>Contact Information</legend>
+	
+					<label for="email">E-mail</label>
+					<input type="email" name="email" id="email" placeholder="    Enter your email..." required>
+	
+					<label for="tel">Phone</label>
+					<input type="tel" name="phone" id="tel" placeholder="    Enter your phone..." required>
+				</fieldset>
+	
+				<fieldset class="delivery-info-box">
+					<legend>Shipping Address</legend>
+	
+					<label for="name">Full Name</label>
+					<input type="text" name="name" id="name" placeholder="    Daniel Ezekiel" required>
+	
+					<label for="address">Address</label>
+					<input type="text" name="address" id="address" placeholder="    Your address..." required>
+	
+					<label for="city">City</label>
+					<input type="location" name="city" id="city" placeholder="    Your city..." required>
+	
+					<label class="dropdown-label">
+						Country
+						<select name="country" id="country" required>
+							<option value>Your Country...</option>
+							<option value="Ghana">Ghana</option>
+							<option value="Kenya">Kenya</option>
+							<option value="Nigeria">Nigeria</option>
+						</select>
+					</label>
+	
+					<label class="post-code-label" >
+						Postal code
+						<input type="text" name="post-code" id="postal-code" placeholder="    Your postal code..." required>
+					</label>
+	
+				</fieldset>
+	
+				<label for="save-info">
+					<input type="checkbox" name="save-info-text" id="save-info"> Save information for later
+				</label>
+
+				<p class="error-declaration"></p>
+				
+				<button name="submit" class="btn" id="#error-btn">
+					Continue
+				</button>
+
+			</form>
+
+		</main>
+
+		<footer>
+			<span>
+				created by <a href="https://github.com/Daniel-Ezekiel">Lipkis</a>
+			</span>
+		</footer>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
