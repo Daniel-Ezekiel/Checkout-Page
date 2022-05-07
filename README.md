@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://profilee-page.netlify.app/">
+    <a href="https://stop-n-shop.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -42,7 +42,7 @@
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo? 
-   [See my Demo](https://profilee-page.netlify.app/)
+   [See my Demo](https://stop-n-shop.netlify.app/)
 - What was your experience?
    This challenge has been a real eye opener for me, I've seen my limitations and know what I need to improve on.
 - What have you learned/improved?
